@@ -210,7 +210,8 @@ span{
 }
 .skills-bar .bar .html{
     width: 90%;
-    animation: html 2s;
+    animation: html;
+    animation-duration: 2s;
 }
 .skills-bar .bar .CSS{
     width: 80%;
@@ -246,7 +247,7 @@ span{
 }
 .skills-bar .bar .Express-JS{
     width: 80%;
-    animation: css 11s;
+    animation: Express 11s;
 }
 .skills-bar .bar .MongoDB{
     width: 90%;
@@ -254,11 +255,125 @@ span{
 }
 .skills-bar .bar .SQL{
     width: 85%;
-    animation: 13s;
+    animation: SQL 13s;
 }
 .skills-bar .bar .VSCODE{
     width: 95%;
-    animation: 14s;
+    animation: VSCODE 14s;
+}
+
+/*Animation for skills section*/
+@keyframes html {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 90%;
+    }
+}
+@keyframes css{
+    from {
+        width: 0%;
+    }
+    to {
+        width: 80%;
+    }
+}
+@keyframes javaScript {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 75%;
+    }
+}
+@keyframes ReactJS {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 80%;
+    }
+}
+@keyframes Bootstrap {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 60%;
+    }
+}
+@keyframes Node-Js {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 75%;
+    }
+}
+@keyframes Python {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 85%;
+    }
+}
+@keyframes GOlang {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 70%;
+    }
+}
+@keyframes Git-GitHub {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+@keyframes Express {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 80%;
+    }
+}
+@keyframes MongoDB {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 90%;
+    }
+}
+@keyframes SQL {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 85%;
+    }
+}
+@keyframes html {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 90%;
+    }
+}
+@keyframes VSCODE {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 95%;
+    }
 }
 .education{
     background: var(--second-bg-color);
@@ -736,10 +851,6 @@ span{
     .experience-content .content{
         width: 300px;
     }
-}
-#icon{
-    width: 30px;
-    cursor: pointer;
 }
 
 
