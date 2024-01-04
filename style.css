@@ -283,7 +283,7 @@ span{
     flex: 1 1 40rem;
 }
 .education-column .education-box{
-    grid-column-gap: 100px;
+    grid-column-gap: 10px;
 }
 .education .heading{
     padding: 0px 0px 20px 30px;
@@ -300,7 +300,7 @@ span{
 .education-content .content{
     margin-right: 17rem;
     position: relative;
-    padding: 1.5rem;
+    padding: 24px;
     width: 600px;
     border: .2rem solid red;
     border-radius: .6rem;
@@ -321,6 +321,11 @@ span{
     font-size: 1.6rem;
     padding-top:.5rem ;
 }
+.education-column .education-box{
+    grid-column-gap: 100px;
+}
+
+/*experience section*/
 
 .experience{
     background: var(--bg-color);
@@ -336,53 +341,59 @@ span{
     text-align: center;
     font-size: 2rem;
 }
-.experience .education-row{
+.experience .experience-row{
     display: flex;
     flex-wrap: wrap;
     gap: 5rem;
 }
-.education-row .education-column{
+.experience-row .experience-column{
     flex: 1 1 40rem;
 }
-.education-column .education-box{
-    grid-column-gap: 100px;
+.experience-column .experience-box{
+    grid-column-gap: 10px;
 }
 .experience .heading{
     padding: 0px 0px 20px 30px;
 }
-.education-box .education-content{
+.experience-box .experience-content{
     position: relative;
     padding-left:  2rem;
 }
-.education-box .education-content{
+.experience-box .experience-content{
     margin-left: 15%;
     font-size: 1.5rem;
 }
 
-.education-content .content{
+.experience-content .content{
     margin-right: 17rem;
     position: relative;
-    padding: 1.5rem;
+    padding: 24px;
     width: 600px;
     border: .2rem solid red;
     border-radius: .6rem;
     margin-bottom: 2rem;
 }
-.education-content .content .year{
+.experience-content .content .year{
     font-size: 1.5rem;
     color: var(--main-color);
     padding-bottom: .5rem;
 }
-.education-content .content .year i{
+.experience-content .content .year i{
     padding-right: .5rem;
 }
-.education-content .content h3{
+.experience-content .content h3{
     font-size: 2rem;
 }
-.education-content .content p{
+.experience-content .content p{
     font-size: 1.6rem;
     padding-top:.5rem ;
 }
+.experience-column .experience-box{
+    grid-column-gap: 100px;
+}
+
+
+
 .portfolio{
     background: var(--bg-color);
 }
@@ -533,6 +544,21 @@ span{
     }
     .footer{
         padding: 2rem 3%;
+    }
+}
+@media (max-width:602px){
+    .skills-main{
+        padding: 24px;
+    }
+    .education-content .content{
+        padding-bottom: 10rem;
+    }
+    .portfolio-box img{
+        padding: 24px;
+        border-radius: 5px;
+    }
+    .education-content .content{
+        padding-bottom: 10rem;
     }
 }
 @media (max-width:768px){
